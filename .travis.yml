@@ -1,7 +1,7 @@
-language: generic
-addons:
-  apt:
-    packages:
-      - openjdk-8-jdk-headless
-script:
-  - make run
+language: java
+script: make run
+jdk:
+  - openjdk15
+  
+  
+  
